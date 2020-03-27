@@ -1,4 +1,6 @@
 import React from 'react';
+import 'intl';
+import 'intl/locale-data/jsonp/pt-BR';
 
 import Routes from './src/routes';
 
@@ -17,6 +19,9 @@ import Routes from './src/routes';
  *          align-itens: center; ----------> alingItems: 'center',
  *    NÃO EXISTE ERANÇA DE ESTILOS
  *        TODO ELEMENTO PRECISA DE UMA ESTILIZAÇÃO PRÓRPIA
+ * 
+ * Adicionamos o intl para poder usar a mesma ferramenta que foi usada no front-end
+ *    yarn add intl e depois importamos aqui para poder usar em toda aplicação 
  */
 
 export default function App() {
